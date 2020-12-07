@@ -1,0 +1,18 @@
+{
+    "run_type": "server",
+    "local_addr": "0.0.0.0",
+    "local_port": 8000,
+    "remote_addr": "localhost",
+    "remote_port": 80,
+    "disable_http_check": true,
+    "password": ["inukQ&mRdL*fvrJU"],
+    "websocket": {
+        "enabled": true,
+        "path": "/tj88ipmmncOJLAWq6x",
+        "host": "t1.rancher.com"
+    },
+    "transport_plugin": {
+        "enabled": true,
+        "type": "plaintext"
+    }
+}
