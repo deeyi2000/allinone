@@ -5,7 +5,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     go env -w GOPROXY=https://goproxy.cn,direct &&\
     git clone https://github.com/p4gefau1t/trojan-go.git -b master --depth=1 &&\
     cd trojan-go &&\
-    make &&\
+    make
 
 FROM alpine:latest
 WORKDIR /
